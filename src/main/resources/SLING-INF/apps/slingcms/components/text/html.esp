@@ -1,0 +1,5 @@
+
+<div id ='<%= currentNode.getPath() %>/cont' class="editable">
+    <%= currentNode.cont%>
+</div>
+		

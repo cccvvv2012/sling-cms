@@ -1,0 +1,15 @@
+{
+    "jcr:title": "Home",
+    "sling:resourceType": "slingcms/pages/base",
+    "head": {
+        "sling:resourceType": "slingcms/pages/base/head"
+    },
+    "menu": {
+        "sling:resourceType": "slingcms/components/navigation/top"
+    },
+    "main": {
+        "sling:resourceType": "slingcms/components/repeater",
+        "text1": { "sling:resourceType": "slingcms/components/text" },
+        "text2": { "sling:resourceType": "slingcms/components/text" }
+    }
+}
